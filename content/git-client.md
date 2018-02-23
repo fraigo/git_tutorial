@@ -1,5 +1,5 @@
 
-## Git client 
+## Git Client 
 
 
 ### Download a Git client
@@ -12,12 +12,19 @@ After we get and confirm the GitHub account, we need to install a **Git Client**
 
 ### Install your Git client 
 
-The *instalation* process of Git Client is simple. You may be prompted to choose a few options while installing the client.
+The *instalation* process of Git Client is simple. Follow all the instructions of the installation process. You may be prompted to choose a few options while installing the client.
 
+### Accessing the terminal window
 
-#### Testing your Git client installation
+If you are using Windows, Linux, or Mac, you may have different ways to access a terminal/command window. This terminal allows you to execute git commands:
 
-Once the installation is completed. You can **test the `Git` command** in a terminal/command window:
+* For Linux (Ubuntu, Debian, etc), you can use the default **Terminal** application.
+* For Windows you can use the **Git shell** terminal, *installed along with the Git client*
+* For Mac, use the **Terminal** application located in *Apps/Accessories*
+
+### Testing your Git client installation
+
+Once the installation is completed. You can **test the `Git` command** in a [terminal/command window](#accessing-the-terminal-window):
 
 ```bash
 git --version 
@@ -37,7 +44,7 @@ Git: command not found
     
 ### Configure your Git client
 
-After you installed your Git client, you need to put some information about the Git user account in a terminal/command window. 
+After you installed your Git client, you need to put some information about the Git user account in a [terminal/command window](#accessing-the-terminal-window). 
 
 * First, define the **user name** of your Git account:
 
@@ -56,7 +63,7 @@ git config set user.email "my.email@host.com"
 
 If you plan to push your changes to a GitHub account, you need to share a SSH key to access the GitHub server.
 
-Open a terminal window and check if you have a public SSH key created (`id_rsa.pub` stored in a hidden folder `.ssh/` in your home folder):
+Open a [terminal/command window](#accessing-the-terminal-window) and check if you have a public SSH key created (`id_rsa.pub` stored in a hidden folder `.ssh/` in your home folder):
 
 ```bash
 cat .ssh/id_rsa.pub
