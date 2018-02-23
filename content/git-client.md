@@ -16,17 +16,29 @@ The *instalation* process of Git Client is simple. You may be prompted to choose
 
 Once the installation is completed. You can **test the `Git` command** in a terminal/command window:
 
-    Git 
+    git --version 
 
 The result will appear with a text like this:
 
     Git version 2.14.3 (Apple Git-98)
     
-If it shows an error message like this, you need to check your instalation process:
+If there were any error messages like the following, you need to check your instalation process:
     
     Git: command not found
     
     
+### Configure your Git client
+
+After you installed your Git client, you need to put some information about the Git user account. 
+
+* First, define the **user name** of your Git account:
+
+    git config set user.name "My Name"
+
+* Then, define the **user email** of the Git account:
+
+    git config set user.email "my.email@host.com" 
+
 
 
 
