@@ -14,6 +14,25 @@ After we get and confirm the GitHub account, we need to install a **Git Client**
 
 The *instalation* process of Git Client is simple. Follow all the instructions of the installation process. You may be prompted to choose a few options while installing the client.
 
+#### Windows installation
+
+* Go to https://git-scm.com/download/Wwin, and you will be promted to download a **32-bit or 64-bit** client, matching your operating system architecture and version.
+* Open and **execute** the installer .exe package, allowing access as Administrator.
+* Follow the assitant using the **default options**. These options are the most common and secure to start.
+* In the step of selecting a **default editor**, you can select a different option instead of [Vim](http://www.vim.org/) *default editor*, unless you are familiar with Vim. The options are available based on your current editors installed. You can use [Notepad++](https://notepad-plus-plus.org/download/) or [Visual studio Code](https://code.visualstudio.com/download) if they are installed previously.
+
+#### Mac Installation
+
+* Download the .dmg package from https://git-scm.com/download/mac and open it. 
+* Follow the instructions in the installation process.
+
+#### Linux Instalation 
+
+* Follow the instructions in https://git-scm.com/download/linux to install Git in your system. 
+* For **Ubuntu/Debian** based distributions, you need to execute `apt-get install git`
+
+
+
 ### Accessing the terminal window
 
 If you are using Windows, Linux, or Mac, you may have different ways to access a terminal/command window. This terminal allows you to execute git commands:
