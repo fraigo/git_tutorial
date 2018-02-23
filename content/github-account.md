@@ -12,7 +12,12 @@ In the next step, you can choose a personal **free plan** for **unlimited public
 
 Finally, in the last step, you can answer some questions (optionally) to **tailor your experience** to optimize your account to your needs. At this point, your account was created successfully.
 
+![GitHub Customize Page](../images/github-customize.png)
+
 You will receive an **email of confirmation**. Go to the "**Verify Email Address**" link provided to confirm your account.
+
+![GitHub Customize Page](../images/github-email-confirmation.png)
+   
 
    
 ### Configuring your account

@@ -11,8 +11,8 @@ This Git tutorial is intended for beginners at Git, to show a complete sequence 
    2. [**Configuring** your account](content/github-account.md#configuring-your-account)
 2. [**Git client**](content/git-client.md)
    1. [**Download** a Git client](content/git-client.md#download-a-git-client)
-   2. **Install** your Git client
-   2. **Configuring** your Git client
+   2. [**Install** your Git client](content/git-client.md#install-your-git-client)
+   2. [**Configure** your Git client](content/git-client.md#configure-your-git-client)
 3. **GitHub projects**
    1. **Creating** a GitHub project
    2. **Forking** a GitHub project
