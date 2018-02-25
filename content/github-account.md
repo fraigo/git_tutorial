@@ -17,12 +17,26 @@ Finally, in the last step, you can answer some questions (optionally) to **tailo
 You will receive an **email of confirmation**. Go to the "**Verify Email Address**" link provided to confirm your account.
 
 ![GitHub Customize Page](../images/github-email-confirmation.png)
+
+
+
+
+
+### Login into your account
+
+Go to https://github.com/ and click on the "Sign In" menu to get the [**Login**](https://github.com/login) page (https://github.com/login).
    
 
-   
+![GitHub Login Page](../images/github-login.png)
+
+Use your email and password to enter in your GitHub account.
+
+
+
+
 ### Configuring your account
 
-You can do some configurations before using your account. Go to the right-top menu with an icon, and select "**Settings**"
+You can do some configurations before using your account. Go to the right-top menu with an icon, and select [**Settings**](https://github.com/settings) (https://github.com/settings)
 
 ![GitHub Settings](../images/github-settings.png)
 

@@ -33,7 +33,7 @@ The *instalation* process of Git Client is simple. Follow all the instructions o
 
 
 
-### Accessing the terminal window
+### Accessing the terminal window 
 
 If you are using Windows, Linux, or Mac, you may have different ways to access a terminal/command window. This terminal allows you to execute git commands:
 
