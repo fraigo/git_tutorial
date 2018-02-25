@@ -12,7 +12,7 @@
 
 
 
-### Adding files to your project
+### Add files to your project
 
 
 

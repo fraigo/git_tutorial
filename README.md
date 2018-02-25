@@ -2,7 +2,7 @@
 
 ## Learn the basics  
 
-This Git tutorial is intended for beginners at Git, to show a complete sequence of instalation, configuration, and basic use.
+This Git tutorial is intended for beginners in Git, to show a **complete sequence** of *instalation, configuration, and basic use*. If you want a more detailed guide you can [read the official guide](https://guides.github.com/activities/hello-world/).
 
 ## Contents
 
@@ -26,7 +26,7 @@ This Git tutorial is intended for beginners at Git, to show a complete sequence 
 5. [**Working** with a Git project](content/git-projects.md)
    1. [**Clone** a Git project](content/git-projects.md#clone-a-git-project)
    1. [**Pull** external changes](content/git-projects.md#pull-external-changes)
-   1. [**Adding** files to your project](content/git-projects.md#adding-files-to-your-project)
+   1. [**Add** files to your project](content/git-projects.md#add-files-to-your-project)
    1. [**Commit** your changes](content/git-projects.md#commit-your-changes)
    1. [**Push** your commits to GitHub](content/git-projects.md#push-your-commits-to-github)
 
