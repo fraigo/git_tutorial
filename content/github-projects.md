@@ -63,8 +63,14 @@ When the fork is completed, you will be pointed to the *forked project*. Note th
 
 Once you are in a GitHub project [created by yourself](#create-a-git-hub-project), or a [forked project](#fork-a-git-hub-project), you can do some basic configurations:
 
-1. Change the project **description**: Pressing the "Edit" button near the description header of the project, you can change the **Project description** and website.
+1. Change the project **description**: Pressing the "Edit" button near the description header of the project.
 
-2. Add or edit **topics** : Pressing "Add topics" (or "Manage topics" if there are existing topics) under the project description, you can add several project topics. Topics are **relevant tags** associated to your project. You can add some topics to tell the users what topics are covered in your project (For example: Java, Node)
+2. Add or edit **topics** : Pressing "Add topics" (*or "Manage topics" if there are existing topics*) under the project description. Topics are **relevant tags** associated to your project. You can add some topics to tell the users what topics are covered in your project (For example: Java, Node)
 
-3.  
+3. Change project settings: Going to the "**Settings**" menu (the **last tab** after *Wiki* and *Insights*), you can set several options for your project. The more useful options are:
+
+    1. **Project name** (in *Options/Settings*)
+    2. **Collaborators**: You can add collaborators, searching by his GitHub user name, or profile name. These users can modify your repository directly. They *don't need to fork your project*.
+    3. Making **branches**: You can create *development branches* (independent repositories based on your `master` repository) to add and test some features, without interfering or modifying the master repository. Also you can create branches using the [Git Client](git-client.md). 
+    3. **Github pages** (in *Options/Github pages*) to setup a project page using your `.md` or `.html` files in the root of your repository, or a `docs` folder (https://**`your-username`**.github.io/**`your-project-name`**)
+    4. **Delete project** (in *Options/Danger Zone*) If you want to delete the project, you need to write the name of your repository and press the red button. It cannot be undone later.
