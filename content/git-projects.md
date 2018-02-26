@@ -159,7 +159,7 @@ Before you commit your files, you need to check the status of your files, and if
 git commit -m "Message to be recorded in your transaction".
 ```
 
-Also, there is a shortcut to automatically **add files and commit at the same time** using the `-A` option . 
+Also, there is a shortcut to automatically **add files and commit at the same time** using the `-a` option . 
 
 ```bash
 # command-by-command 
@@ -167,7 +167,7 @@ git add -A
 git commit -m "Adding new site images"
 
 # same action with only one command
-git commit -A -m "Adding new site images"
+git commit -a -m "Adding new site images"
 ```
 
 The output of the commit will give you some statistics about the commit:
