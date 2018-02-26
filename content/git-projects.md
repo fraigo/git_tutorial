@@ -193,6 +193,19 @@ Where you are ready making changes to your project, modifying files and adding n
 git push
 ```
 
+The output of this command will be something like:
+
+```
+Counting objects: 9, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 3.03 KiB | 1.52 MiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/username/user_project.git
+   90707d9..5393df4  master -> master
+```
+
 
 
 
