@@ -1,5 +1,9 @@
    
 ## GitHub Projects
+
+A GitHub project is a Git repository where you can put your project files and keep track of every change you made. 
+   
+
    
 ### Create a GitHub project
 
@@ -61,7 +65,7 @@ When the fork is completed, you will be pointed to the *forked project*. Note th
 ### Configure your GitHub project
 
 
-Once you are in a GitHub project [created by yourself](#create-a-git-hub-project), or a [forked project](#fork-a-git-hub-project), you can do some basic configurations:
+Once you are in a GitHub project [created by yourself](#create-a-github-project), or a [forked project](#fork-a-github-project), you can do some basic configurations:
 
 1. Change the project **description**: Pressing the "Edit" button near the description header of the project.
 

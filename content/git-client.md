@@ -1,10 +1,11 @@
 
 ## Git Client 
 
+The **Git client** is the main tool to create, modify, update and upload a Git project to GitHub.
 
 ### Download a Git client
 
-After we get and confirm the GitHub account, we need to install a **Git Client** to access your code locally, in your computer. The Git client can be **downloaded** from https://Git-scm.com/downloads (Git Downloads):
+After we get and confirm the GitHub account, we need to install a **Git Client** to access your code locally, in your computer. The Git client can be **downloaded** from https://git-scm.com/downloads (Git Downloads):
 
 1. [Git for **Windows**](https://git-scm.com/download/win) - https://git-scm.com/download/win
 2. [Git for **Mac**](https://git-scm.com/download/mac) - https://git-scm.com/download/mac
@@ -12,7 +13,7 @@ After we get and confirm the GitHub account, we need to install a **Git Client**
 
 ### Install your Git client 
 
-The *instalation* process of Git Client is simple. Follow all the instructions of the installation process. You may be prompted to choose a few options while installing the client.
+The instalation process of Git Client is simple. In some cases, you may be prompted to choose a few options while installing the client.
 
 #### Windows installation
 
