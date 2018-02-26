@@ -170,6 +170,17 @@ git commit -m "Adding new site images"
 git commit -A -m "Adding new site images"
 ```
 
+The output of the commit will give you some statistics about the commit:
+
+```
+[master 09ecadd] Adding new site images
+ 1 files changed, 14 insertions(+), 8 deletions(-)
+ create mode 100644 image02.png
+ ```
+
+In the above example, there is one file changed (with number of lines inserted and deleted), and one file created.
+
+
 At this point, your changes has been commited only locallly. To [submit your modifications o your GitHub project](#submit-changes-to-your-github-project) you must `push` them. 
 
 
