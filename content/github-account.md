@@ -48,6 +48,21 @@ Some basic configurations you may want to change or update:
 
 
 
+### Register a SSH key in GitHub
+
+To add security to your projects, you can add specific computers you want to access and modify your repositories. You need to add a SSH public key obtained from your local computer. See the section about gettng a SSH key to register in GitHub.
+
+Once you have created a ssk key, you need to copy the contents of the `id_rsa.pub` file, which is inside the `.ssh` folder in your home directory. Then, you will go to the Account Settings, in the top-right menu. Then, go to the "SSH and GPG keys" in the left side. Add a description and the new key using the whole content of your `id_isa.pub` file wich has the following format:
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAA4DAQABAAABAQCtNRSK/F9GadtP4KWnXQz+zQvRui23M43bF8l9iZSYSho+ZOUzF3xcXPkDG3yL1YA3gpfxukQxyu1JTzHiGQ4JrNhpVq3O+Sz7IbG6NXRdFcj/Ur8cHIEN5VWH2A0cSgp8y7jNMRmOWxPEtDfanVPFfbimEZvOqd71iQ2hYxKqQQ6/rHYE1vhfxilkNr8rFaajff0zy14A5ByRMavDcHlKtY2qf7aBE13nm8/C6kBIdpcIdNlHtNVFHrG3Hf8Sc9RXWU1AJvy/al7vijksB5zwRRCmsroXb8o0Kwtexy6OtzgUTV8gNoWYCbqzcC1Es6sDF403SVlS7YzrLNWr45zZ User@computer
+``` 
+
+![GitHub SSH key](../images/github-ssh-key.png)
+
+
+
+
 
 
 
