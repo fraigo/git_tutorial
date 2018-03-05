@@ -181,7 +181,7 @@ The output of the commit will give you some statistics about the commit:
 In the above example, there is one file changed (with number of lines inserted and deleted), and one file created.
 
 
-At this point, your changes has been commited only locallly. To [submit your modifications o your GitHub project](#submit-changes-to-your-github-project) you must `push` them. 
+At this point, your changes has been commited only locallly. To [submit your modifications to your GitHub project](#submit-changes-to-your-github-project) you must `push` them. 
 
 
 
@@ -193,7 +193,14 @@ Where you are ready making changes to your project, modifying files and adding n
 git push
 ```
 
-The output of this command will be something like:
+The first time, you will be asked for your GitHub user and password:
+
+```
+Username for 'https://github.com': youruser@email.com
+Password for 'https://youruser@email.com@github.com': 
+```
+
+After you enter your credentials, the output of the `git pull` command will be something like:
 
 ```
 Counting objects: 9, done.
@@ -207,106 +214,20 @@ To https://github.com/username/user_project.git
 ```
 
 
+#### Password changed issues
 
+If your password has changed after the last push, you will get an error
 
+```
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/fraigo/tower-game.git/'
+```
 
+TO resolve this issue, you need to reset your credentials:
 
+```bash
+git config --global --unset user.password
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Push your commits to GitHub
-
-
-
+This command will remove your current credentials. Now you can [push your modifications](#submit-changes-to-your-github-project)  to your GitHub project again
 
