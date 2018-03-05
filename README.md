@@ -32,7 +32,7 @@ This Git tutorial is intended for beginners in Git, to show a **complete sequenc
    1. [**Add** files to your project](content/git-projects.md#add-files-to-your-project)
    1. [**Remove** files to your project](content/git-projects.md#remove-files-from-your-project)
    1. [**Commit** your changes](content/git-projects.md#commit-your-changes)
-   1. [**Submit** your changes to your GitHub project](content/git-projects.md#submit-your-changes-to-your-github-project)
+   1. [**Submit** your changes to your GitHub project](content/git-projects.md#submit-changes-to-your-github-project)
 
 
 ## Contributing
