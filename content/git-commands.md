@@ -19,13 +19,13 @@ Remember that all command are executed from the root folder of your project.
 
 * `git pull` to update your repository to the last changes
 
-* `git status` to check if there is any new or modified file.
+* `git status` to check if there is any new or modified file to commit or push.
 
 * `git add path/to/file` to add a **new or modified** file to the index (to be commited) 
 
-    * `git add -A` adds **all new and modified** files.
+    * `git add -A` is a shortcut to add **all new and modified** files.
 
-    * Also you can use wildcards (`path/to/*.js`) or multiple files separated by space
+    * Also you can use wildcards (`git add path/to/*.js`) or multiple files separated by space (`git add path1/file.js path2/file2.js`)
 
 * `git commit -m "Commit message"` to commit your changes from the index. 
 
