@@ -16,6 +16,9 @@
         nav * {
             font-size: 0.8rem !important;
         }
+        .markdown-body h1 {
+            display:none;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
             success: function( result ) {
                 $("#nav").html(result);
                 $("a").click(function(e){
-                    console.log(this.href);
+                    $("main").load(this.href);
                     return false;
                 })
                 $("main").load("content/github-account.html");
