@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         nav {
-            width:200px;
+            width:250px;
             position:fixed;
         }
         main{
-            margin-left: 220px;
+            margin-left: 200px;
+        }
+        nav * {
+            font-size: 0.8rem !important;
         }
     </style>
 </head>
@@ -38,7 +41,8 @@
             success: function( result ) {
                 $("#nav").html(result);
                 $("a").click(function(e){
-                    alert(e.href);
+                    console.log(this.href);
+                    return false;
                 })
                 $("main").load("content/github-account.html");
             }
