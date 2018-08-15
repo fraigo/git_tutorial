@@ -26,11 +26,3 @@
    1. [**Commit** your changes](content/git-projects.md#commit-your-changes)
    1. [**Submit** your changes to your GitHub project](content/git-projects.md#submit-changes-to-your-github-project)
 
-
-## Contributing
-
-If you want to contribute to this project, feel free to [fork it](https://github.com/fraigo/git_tutorial/fork) and collaborate.
-
-
-   
-   

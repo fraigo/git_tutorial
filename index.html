@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Git for beginners</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        nav {
+            width:200px;
+            position:fixed;
+        }
+        main{
+            margin-left: 220px;
+        }
+    </style>
 </head>
 <body>
     
@@ -28,6 +37,10 @@
             },
             success: function( result ) {
                 $("#nav").html(result);
+                $("a").click(function(e){
+                    alert(e.href);
+                })
+                $("main").load("content/github-account.html");
             }
         });
 
