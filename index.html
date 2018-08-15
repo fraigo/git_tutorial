@@ -48,7 +48,7 @@
                 $("#nav").html(result);
                 $("a").click(function(e){
                     var parts=this.href.split("#");
-                    $("main").load(parts[0],{},function(){
+                    $("main").load(parts[0],null,function(){
                         if (parts[1]){
                             document.location="#"+parts[1];
                         }
