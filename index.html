@@ -47,7 +47,12 @@
             success: function( result ) {
                 $("#nav").html(result);
                 $("a").click(function(e){
-                    $("main").load(this.href);
+                    var parts=this.href.split("#");
+                    $("main").load(parts[0],{},function(){
+                        if (parts[1]){
+                            document.location="#"+parts[1];
+                        }
+                    });
                     return false;
                 })
                 $("main").load("content/github-account.html");
