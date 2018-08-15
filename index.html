@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Git for beginners</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 </head>
 <body>
     
+    <nav id="nav">
+
+    </nav>
+
+    <main id="content">
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script>
+    $.ajax({
+        url: "content.html",
+        data: {
+            
+        },
+        success: function( result ) {
+            $("#nav").html(result);
+        }
+    });
+    </script>
+
 </body>
 </html>
