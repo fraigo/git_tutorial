@@ -7,13 +7,26 @@ When you are working with a Git project, you probably will use the following seq
 Remember that all command are executed from the root folder of your project.
 
 
-#### Start a project 
+#### Start a completely new project 
 
 * `git init` to **start a new project** from scratch. It will create the basic Git **local** repository.
 
-* `git clone https://github.com/user/github-project.git` to start from a **copy of some existing project**
+#### Start from a remote repository (clone)
 
-* If you want to make changes to an existing repository of another user, you need to [**Fork** it] before cloning(content/github-projects.md#fork-a-github-project)
+* `git clone https://github.com/user/github-project.git` to start from a **local copy** of some existing project
+
+* If you want to make changes to an existing repository *of another user*, you need to [**Fork** it] before cloning(content/github-projects.md#fork-a-github-project)
+
+#### Use existing code or create files for a new git repository
+
+* `git init` if the local repository was not initialized yet
+* Create and modify any file inside the repository
+* `git add -A` to add all files to commit
+* `git commit -m "Initial commit"` to commit your changes **locally**.
+* `git remote add origin https://github.com/user/project-name.git` to register a **remote** existing repository
+* `git push -u origin master` to send your changes to the remote git repository.
+
+
 
 #### Work with your project
 
