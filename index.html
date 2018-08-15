@@ -18,15 +18,21 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
     <script>
-    $.ajax({
-        url: "content.html",
-        data: {
-            
-        },
-        success: function( result ) {
-            $("#nav").html(result);
-        }
+    
+    $( document ).ready(function() {
+ 
+        $.ajax({
+            url: "content.html",
+            data: {
+                
+            },
+            success: function( result ) {
+                $("#nav").html(result);
+            }
+        });
+
     });
+    
     </script>
 
 </body>
